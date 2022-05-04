@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather,serif;
+}
+hr{
+  border: dotted black 20px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+h1 {
+  line-height: 2;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: Sacramento,cursive;
+}
+h2 {
+  font-weight: normal;
+  margin-top: 0;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem
+}
+h3 {
+  margin-top: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+a{
+  margin:10px 20px;
+  background:black;
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+  background-color: white
+}
+
+p{
+  line-height: 2;
+}
+
+
+.top-container {
+  background-color: #DDDDDD;
+  background-image: linear-gradient(to left , white, #3c3c3c);
+  padding-top: 100px;
+  position:relative;
+}
+
+.middle-container {
+  background-color: #DDDDDD;
+  background-image: linear-gradient(to left, white, #3c3c3c);
+  padding:50px 0
+}
+.profile-pic{
+  margin: 0 auto 0 auto;
+}
+
+.bottom-container {
+  padding:50px 0 50px;
+  background-image: linear-gradient(to left, white, #3c3c3c);
+}
+.pro{
+  text-decoration: underline;
+}
+.intro{
+  margin:auto;
+  width:30%;
+}
+.top-galaxy{
+  position:absolute;
+  right: 10%;
+  top: 50px;
+  height:100px;
+  width: 100px;
+
+}
+.bottom-galaxy{
+  position:absolute;
+  left: 10%;
+  bottom: 300px;
+  height:100px;
+  width: 100px;
+}
+.observatory{
+  height:200px;
+  width: 200px;
+
+}
+.profile-pic{
+  width:20%;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.skill-icon1{
+  width:25%;
+  float:left;
+  margin-right: 15px;
+}
+.skill-icon2{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family:  'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: white;
+  color:black;
+  text-decoration: none;
+}
+.copyright{
+  padding:20px 0 ;
+  font-size: 0.75rem;
+}
